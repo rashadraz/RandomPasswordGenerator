@@ -1,0 +1,81 @@
+
+body{
+     background-color:#ff99d1;
+background-image:
+radial-gradient(at 22% 10%, hsla(239,100%,72%,1) 0px, transparent 50%),
+radial-gradient(at 77% 37%, hsla(267,100%,64%,1) 0px, transparent 50%),
+radial-gradient(at 50% 73%, hsla(297,100%,63%,1) 0px, transparent 50%),
+radial-gradient(at 8% 51%, hsla(206,100%,67%,1) 0px, transparent 50%),
+radial-gradient(at 74% 4%, hsla(155,100%,71%,1) 0px, transparent 50%),
+radial-gradient(at 59% 51%, hsla(230,100%,70%,1) 0px, transparent 50%),
+radial-gradient(at 62% 93%, hsla(190,100%,61%,1) 0px, transparent 50%); 
+/* background:linear-gradient(to bottom,#33ccff 0%, #ff99cc 100%) ; */
+
+   
+   
+   
+ /*---------------------------------------------------------------------*/  
+margin: 0;
+padding: 0;
+
+overflow-x:hidden;
+overflow-y:hidden;
+height: 100vh;
+
+    
+
+    
+}
+#card{
+    background: #1F2937;
+    margin:100px auto;
+    text-align: left;
+    padding: 30px 70px;
+    border-radius: 10px;
+    color: white;
+    width: 400px;
+    height: 400px;
+    
+}
+#h1-line2{
+    color: aquamarine;
+}
+#h2{
+    opacity: 50%;
+    color: skyblue;
+}
+#generate-btn{
+    background: #10B981;
+    padding: 10px 15px;
+    margin-top: 50px;
+    border-radius: 5px;
+    color: black;
+    border: none;
+    transition:0.3s;
+}
+#generate-btn:hover{
+   background: #059669;
+}
+.line-breaker{
+    border: 1px solid #4B5563;
+}
+.password{
+    color: #55F991;
+    width: 180px;
+    background:#273549;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    height: 40px;
+    border: none;
+}
+#password-container{
+    display: flex;
+    justify-content: space-between;
+}
+#tip{
+    opacity: 30%;
+}
+
+
+

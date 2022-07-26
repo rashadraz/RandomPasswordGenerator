@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <title>PassWordGenerator</title>
+</head>
+<body>
+    <div id="card">
+        <h1 id="h1-line1">"Generate a "
+            <div id="h1-line2">random Password</div>
+        </h1>
+        <p id="h2">Never use an insecure password again </p>
+        <button id="generate-btn" onclick="generate()">Generate Passwords</button>
+        <hr class="line-breaker">
+        <div id="password-container">
+            <button class="password" id="password-el1" onclick="copy(this.innerText)"></button>
+            <button class="password" id="password-el2" onclick="copy(this.innerText)"></button>    
+        </div>
+        <p id="tip">Click on the passwords to copy them to clipboard</p>
+    </div> 
+    <script src="./scripts/scripts.js"></script>
+</body>
+</html>
